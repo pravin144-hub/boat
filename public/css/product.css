@@ -1,0 +1,98 @@
+.product-form {
+    width: 20rem;
+    max-width: 90%;
+    margin: auto;
+    display: block;
+}
+
+input,
+textarea {
+    background-color: rgb(170, 170, 170);
+}
+
+.product-item {
+    width: 20rem;
+    max-width: 95%;
+    margin: 1rem;
+}
+
+.card,
+.product-item {
+    background-color: rgba(255, 255, 255, 0.801);
+}
+
+body {
+    background-color: rgba(0, 0, 0, 0.699);
+    color: rgb(0, 0, 0);
+    font-family: "Source Sans Pro", sans-serif;
+    background-image: url(https://eskipaper.com/images/free-hd-background-2.jpg);
+    background-position: top !important;
+}
+
+
+/* body {
+    background-color: rgba(0, 0, 0, 0.699) !important;
+} */
+
+.fa-bars {
+    margin-left: 850% !important;
+    font-size: 28px;
+    color: #ff0000 !important;
+}
+
+@media only screen and (max-width: 500px) {
+    #logo {
+        color: #ff5959;
+        font-size: 18px;
+        font-weight: bold;
+    }
+    .layout {
+        margin-left: 5% !important;
+        margin-right: 5% !important;
+        margin-top: 15% !important;
+    }
+}
+
+.fas {
+    color: #ff5959;
+    font-size: 28px;
+}
+
+.product__title {
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.product__price {
+    text-align: center;
+    color: #4d4d4d;
+    margin-bottom: 0.5rem;
+}
+
+.product__description {
+    text-align: center;
+}
+
+label {
+    color: rgb(182, 182, 182) !important;
+}
+
+.layout {
+    border: 2px solid rgb(6, 4, 39);
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 5%;
+    font-weight: bold;
+    background-image: url(https://img.freepik.com/free-vector/gradient-hexagonal-background_23-2148944164.jpg?size=626&ext=jpg);
+    background-position: top !important;
+    background-size: cover !important;
+}
+
+.btn-success {
+    padding: 3%;
+    background-color: rgb(3, 160, 29) !important;
+    color: rgb(214, 214, 214) !important;
+    border: none !important;
+    text-decoration: none !important;
+    margin-left: 34%;
+}
